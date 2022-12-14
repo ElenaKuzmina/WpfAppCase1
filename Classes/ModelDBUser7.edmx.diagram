@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2c674ebbf1f241fa9ed2edd00d173cde" Name="Diagram1">
+        <EntityTypeShape EntityType="WsrUser7Model.Account" Width="1.5" PointX="12" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Contractor" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.LoyaltyCard" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Movement" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.OpeningHour" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Photo" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.PointOfSale" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Product" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Role" Width="1.5" PointX="9.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Sale" Width="1.5" PointX="8" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.TrafficPaht" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WsrUser7Model.Warehouse" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="WsrUser7Model.FK_Account_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_Warehouse_Contractor" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_Sale_LoyaltyCard" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_Movement_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_Movement_Warehouse1" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_OpeningHour_PointOfSale" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_Product_Photo1" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_PointOfSale_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="WsrUser7Model.FK_TrafficPaht_PointOfSale" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
